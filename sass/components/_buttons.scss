@@ -1,0 +1,33 @@
+.btn {
+  padding: 0.8rem 2.5rem;
+  color: $color-grey-1;
+  border-radius: 0.3rem;
+  box-shadow: $shadow-button;
+  background: $color-green-1;
+  border: 0px;
+  transition: all 0.3s ease-in-out;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+  &:hover {
+    background: $color-grey-1;
+    color: $color-green-1;
+  }
+
+  &--white {
+    background: $color-grey-1;
+    color: $color-green-1;
+
+    &:hover {
+      background: $color-green-2;
+      color: $color-grey-1;
+    }
+  }
+}

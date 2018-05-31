@@ -1,0 +1,25 @@
+@import "node_modules/normalize.scss/normalize.scss";
+
+
+html {
+  
+  font-family: 'Nunito', sans-serif;
+}
+
+
+
+a:link,
+a:visited,
+a:active {
+  color: $color-grey-1;
+  text-decoration: none;
+  font-weight: 200;
+}
+
+a:hover {
+  color: $color-grey-3;
+}
+
+section {
+  margin-top: 10rem;
+}

@@ -1,0 +1,25 @@
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8rem;
+
+
+    &__logo {
+      height: 2rem;
+    }
+
+    &__logo-link {
+      
+      
+    }
+
+    &__menu {
+      list-style: none;
+      margin-left: 5rem;
+      li {
+        display: inline-block;
+        margin-right: 1.5rem;
+      }
+    }
+}

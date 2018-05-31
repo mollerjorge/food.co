@@ -1,0 +1,11 @@
+.aboutus {
+  display: flex;
+  justify-content: space-between;
+  min-height: 80vh;
+  
+  &__img {
+    height: 30rem;
+    clip-path: url('#cp');
+    
+  }
+}

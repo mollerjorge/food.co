@@ -1,0 +1,28 @@
+{
+  "name": "food.co",
+  "version": "1.0.0",
+  "description": "food project to practice clip-path gradients and svg images",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "devserver": "live-server",
+    "watch:sass": "node-sass sass/main.scss resources/css/food.co.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mollerjorge/food.co.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mollerjorge/food.co/issues"
+  },
+  "homepage": "https://github.com/mollerjorge/food.co#readme",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "node-sass": "^4.9.0",
+    "normalize.css": "^8.0.0",
+    "normalize.scss": "^0.1.0",
+    "npm-run-all": "^4.1.3"
+  }
+}
