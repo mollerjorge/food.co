@@ -1,0 +1,51 @@
+.meals {
+  padding: 1rem 1.5rem;
+  background: #f0f2ef;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 2rem;
+
+    svg {
+      height: 0;
+      width: 0;
+    }
+  }
+
+  &__number {
+    font-size: 20rem;
+    font-family: "Open Sans";
+    color: #e0e0e0;
+    font-weight: 600;
+    position: absolute;
+    left: 0;
+  }
+
+  &__name {
+    font-size: 4rem;
+    margin-right: 10rem;
+    z-index: 1;
+    margin-left: 5rem;
+  }
+
+  &__sushi {
+    height: 17rem;
+    clip-path: url("#cps");
+  }
+
+  &__content {
+    margin-top: 2rem;
+    padding: 0 6rem;
+  }
+
+  &__text {
+    column-count: 2;
+    column-gap: 2rem;
+    column-rule: 0.1rem solid $color-grey-2;
+  }
+}

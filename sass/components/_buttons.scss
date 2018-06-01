@@ -6,6 +6,7 @@
   background: $color-green-1;
   border: 0px;
   transition: all 0.3s ease-in-out;
+  cursor: pointer;
 
   &::first-letter {
     text-transform: uppercase;
@@ -30,4 +31,13 @@
       color: $color-grey-1;
     }
   }
+
+  &--play {
+    border-radius: 10rem;
+    width: 3rem;
+    height: 3rem;
+    padding: 0;
+  }
+
+  
 }

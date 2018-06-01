@@ -1,0 +1,8 @@
+.divider {
+  // background-image: linear-gradient(rgba($color-green-1, .4), rgba($color-green-2, .4)), url('../img/divider/divider-bg.jpeg');
+  background: red;
+  //background-size: cover;
+  height: 20rem;
+  background-attachment: fixed;
+  z-index: -1;
+}

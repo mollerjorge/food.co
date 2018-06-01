@@ -1,7 +1,20 @@
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: $color-grey-4;
+}
+
+p,
+small {
   color: $color-grey-3;
 }
 
-p, small {
-  color: $color-grey-2;
+p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.03rem;
+  line-height: 1.5rem;
+  
 }

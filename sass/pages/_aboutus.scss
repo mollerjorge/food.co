@@ -1,11 +1,57 @@
 .aboutus {
   display: flex;
   justify-content: space-between;
-  min-height: 80vh;
-  
+  position: relative;
+
+  svg {
+    height: 0px;
+  }
+
   &__img {
     height: 30rem;
     clip-path: url('#cp');
     
+  }
+
+  &__circle-1 {
+    position: absolute;
+    top: 4rem;
+    left: 40%;
+    height: 2rem;
+    animation: bounce 10s ease-in-out infinite;
+  }
+
+  &__circle-2 {
+    position: absolute;
+    top: 0rem;
+    left: 20%;
+    height: 1rem;
+    animation: bounce 10s ease-in-out infinite;
+  }
+
+  &__circle-3 {
+    position: absolute;
+    top: .5rem;
+    left: 60%;
+    height: .5rem;
+    animation: bounce 10s ease-in-out infinite;
+  }
+
+  &__box {
+    padding: 2rem;
+    flex-basis: 30%;
+    > p {
+      max-width: 15rem;
+    }
+  }
+
+  &__play-wrp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    button {
+      margin-right: 1rem;
+    }
   }
 }
